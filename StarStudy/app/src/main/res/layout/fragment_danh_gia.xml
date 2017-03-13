@@ -1,0 +1,20 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/anh_nen_goi_y"
+    tools:context="anhnguyen.com.vn.starstudy.chuongtrinh.DanhGia">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:padding="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="left"
+        android:background="@drawable/font_text_as_button_tips"
+        android:text="@string/hello_blank_fragment"
+        android:textColor="#ff0080"
+        android:textSize="25dp" />
+
+</FrameLayout>

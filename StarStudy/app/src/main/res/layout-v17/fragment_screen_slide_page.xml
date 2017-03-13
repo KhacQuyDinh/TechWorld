@@ -1,0 +1,89 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/tvCau"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="Câu "
+            android:textColor="#ff1500"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#0400ff" />
+
+        <TextView
+            android:id="@+id/tvCauHoi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_margin="10dp"
+            android:layout_marginTop="30dp"
+            android:text="Câu hỏi: "
+            android:textColor="#ff1a00"
+            android:textSize="17sp"
+            android:textStyle="italic" />
+
+        <RadioGroup
+            android:id="@+id/rdgroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rdA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="đáp án A"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/rdB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="đáp án B"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/rdC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="đáp án C"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/rdD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="đáp án D"
+                android:textSize="16sp" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#3700ff" />
+
+        <TextView
+            android:id="@+id/tvLoiGiai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="20dp"
+            android:text=""
+            android:textColor="#0004ff"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+    </LinearLayout>
+</ScrollView>

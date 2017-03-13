@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--<android.support.v7.widget.Toolbar-->
+    <!--android:id="@+id/toolbar"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="50dp"/>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/tvClock"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="0.7"
+            android:background="@drawable/clock"
+            android:elevation="20dp"
+            android:gravity="center"
+            android:textColor="#ff00f7"
+            android:textSize="40dp" />
+
+        <Button
+            android:id="@+id/btnListExam"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="0.23"
+            android:background="@drawable/button"
+            android:elevation="20dp"
+            android:text="KIỂM TRA"
+            android:textColor="#0044ff"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/btnKetQua"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="0.23"
+            android:background="@drawable/button"
+            android:elevation="20dp"
+            android:text="KẾT QUẢ"
+            android:textColor="#0044ff"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:elevation="50dp">
+
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>

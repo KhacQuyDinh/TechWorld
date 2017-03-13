@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_book"
+            android:icon="@drawable/book"
+            android:title="Ôn tập" />
+        <item
+            android:id="@+id/nav_test"
+            android:icon="@drawable/test"
+            android:title="Thi thử trắc nghiệm" />
+        <item
+            android:id="@+id/nav_chart"
+            android:icon="@drawable/chart"
+            android:title="Đánh giá" />
+        <item
+            android:id="@+id/nav_comment"
+            android:icon="@drawable/comment"
+            android:title="Lời khuyên" />
+    </group>
+
+
+
+</menu>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:apps="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="Toán học"
+        android:id="@+id/item_monToan"
+        apps:showAsAction="never" />
+    <item
+        android:title="Vật lý"
+        android:id="@+id/item_monLy"
+        apps:showAsAction="never" />
+    <item
+        android:title="Hóa học"
+        android:id="@+id/item_monHoa"
+        apps:showAsAction="never" />
+
+    <item
+        android:title="Xóa hết biểu đồ"
+        android:id="@+id/item_delete_all_chart"
+        apps:showAsAction="never" />
+
+    <item
+        android:title="Xóa Biểu Đồ"
+        android:id="@+id/item_delete_chart"
+        android:icon="@drawable/ic_delete"
+        apps:showAsAction="always" />
+</menu>

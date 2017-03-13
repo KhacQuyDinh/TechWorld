@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Star Study</string>
+    <string name="title_activity_main2">Star Study</string>
+
+    <string name="host_contact">Mọi góp ý xin gửi về hòm thư:\n\nTechWorld1997@gmail.com</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="loidan">Danh Sách\nCâu Hỏi Và Đáp Án</string>
+    <!-- TODO: Remove or change this placeholder text -->m
+    <string name="hello_blank_fragment">Bạn vui lòng nhấn menu (ba dấu gạch bên trái trên cùng) để tiếp tục</string>
+
+    <string name="hint_link_group">Mời bạn gõ link trang web muốn tới</string>
+
+    <string-array name="arrGioiTinh">
+        <item>Giới Tính</item>
+        <item>Nam</item>
+        <item>Nữ</item>
+
+    </string-array>
+    <string-array name="arrMonToan">
+        <item>Tam thức bậc 2</item>
+        <item>Bất đẳng thức Cauchy</item>
+        <item>Cấp số cộng</item>
+        <item>Phương trình, bất phương trình chứa dấu giá trị tuyệt đối</item>
+        <item>Phương trình, bất phương trình chứa dấu căn</item>
+        <item>Phương trình, bất phương trình logadit</item>
+        <item>Phương trình, bất phương trình ngũ</item>
+        <item>Lũy thừa</item>
+        <item>Logadit</item>
+        <item>Công thức lượng giác</item>
+        <item>Phương trình lượng giác</item>
+        <item>Hệ thức lượng trong tam giác</item>
+    </string-array>
+</resources>

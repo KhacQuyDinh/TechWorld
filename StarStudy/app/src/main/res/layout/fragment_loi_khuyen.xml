@@ -1,0 +1,127 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/anh_nen_goi_y"
+    tools:context="anhnguyen.com.vn.starstudy.chuongtrinh.LoiKhuyen">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+            <TextView
+                android:id="@+id/tvTip0_link_host"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:background="@drawable/font_text_as_button_link_group"
+                android:padding="7dp"
+                android:text="@string/host_contact"
+                android:textColor="#ff00ea"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:id="@+id/tvTip0_link_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:background="@drawable/font_text_as_button_link_group"
+                android:padding="7dp"
+                android:text=""
+                android:textColor="#ff00ea"
+                android:textSize="16sp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:weightSum="1"
+                android:orientation="horizontal">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:hint="@string/hint_link_group"
+                    android:textSize="16sp"
+                    android:textColor="#00ff08"
+                    android:textColorHint="#3cff00"
+                    android:id="@+id/edtLinkCuaBan"/>
+
+                <Button
+                    android:layout_weight="0.5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/right_arrow"
+                    android:id="@+id/btnGoto" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvTip1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/font_text_as_button_tips"
+                android:padding="7dp"
+                android:text=""
+                android:textColor="#ff00ea"
+                android:textSize="16sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/tvTip2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/font_text_as_button_tips"
+                android:padding="7dp"
+                android:text=""
+                android:textColor="#ff00ea"
+                android:textSize="16sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/tvTip3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/font_text_as_button_tips"
+                android:padding="7dp"
+                android:text=""
+                android:textColor="#ff00ea"
+                android:textSize="16sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/tvTip4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/font_text_as_button_tips"
+                android:padding="7dp"
+                android:text=""
+                android:textColor="#ff00ea"
+                android:textSize="16sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/tvTip5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/font_text_as_button_tips"
+                android:padding="7dp"
+                android:text=""
+                android:textColor="#ff00ea"
+                android:textSize="16sp"
+                android:textStyle="italic" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

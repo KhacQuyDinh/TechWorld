@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="anhnguyen.com.vn.starstudy.DanhGiaBangBieuDo">
+
+    <android.support.v7.widget.Toolbar
+        android:background="#ff00d5"
+        android:id="@+id/toolbarBieuDo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:padding="2dp"
+        android:id="@+id/linechart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

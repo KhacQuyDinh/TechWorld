@@ -1,0 +1,26 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">20dp</dimen>
+    <dimen name="activity_vertical_margin">20dp</dimen>
+    <dimen name="small_activity_left_margin">10dp</dimen>
+    <dimen name="medium_activity_left_margin">10dp</dimen>
+    <dimen name="big_activity_left_margin">50dp</dimen>
+    <dimen name="height_text_dialog_fail">250dp</dimen>
+    <dimen name="height_text_item">30dp</dimen>
+    <dimen name="width_text_item">30dp</dimen>
+    <dimen name="width_button">150dp</dimen>
+    <dimen name="width_icon">30dp</dimen>
+    <dimen name="width_text">200dp</dimen>
+    <dimen name="width_small_text">150dp</dimen>
+    <dimen name="height_text">50dp</dimen>
+    <dimen name="big_height_divider">30dp</dimen>
+    <dimen name="small_height_divider">3dp</dimen>
+    <dimen name="height_toolbar">50dp</dimen>
+    <dimen name="top">30dp</dimen>
+    <dimen name="depth">10dp</dimen>
+    <dimen name="padding_big_value">20dp</dimen>
+    <dimen name="padding_average_value">10dp</dimen>
+    <dimen name="padding_small_value">5dp</dimen>
+    <dimen name="lv1_min_height">90dp</dimen>
+    <dimen name="lv1_max_height">120dp</dimen>
+</resources>

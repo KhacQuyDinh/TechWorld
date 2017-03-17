@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padding_average_value"
+    android:background="@drawable/feature">
+
+        <TextView
+            android:id="@+id/tvIcon"
+            android:layout_width="@dimen/width_text_item"
+            android:layout_height="@dimen/height_text_item"
+            android:gravity="left|center_vertical"/>
+
+        <TextView
+            android:id="@+id/tvFeature"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_text_item"
+            android:layout_toRightOf="@+id/tvIcon"
+            android:layout_marginLeft="@dimen/small_activity_left_margin"
+            android:textSize="15dp"
+            android:gravity="left|center_vertical"
+            android:textStyle="italic"
+            android:textColor="@color/Black"/>
+
+</RelativeLayout>

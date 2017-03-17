@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Ford</string>
+    <string name="title_update_EV">Cập Nhập Từ Đã Có</string>
+    <string name="title_update_VE">Update Old Word</string>
+    <string name="title_search_word_EV">Tra Nghĩa Từ</string>
+    <string name="title_search_word_VE">Search Word</string>
+    <string name="title_add_word_EV">Thêm Từ Mới</string>
+    <string name="title_add_word_VE">Add New Word</string>
+    <string name="search">Search</string>
+    <string name="EV_Dictionary">EV</string>
+    <string name="VE_Dictionary">VE</string>
+    <string name="exit">EXIT</string>
+    <string name="clearHistory">clearHistory</string>
+    <string name="hintAddMeaningEV">Thêm phát âm, ý nghĩa từ, và một vài ví dụ...</string>
+    <string name="hintAddMeaningVE">Type pronunciation, meanings of the word, and some examples...</string>
+    <string name="hintAddWordEV">Gõ Tiếng Anh vào đây....</string>
+    <string name="hintAddWordVE">Type Vietnamese hear....</string>
+    <string name="save">SAVE</string>
+    <string name="wordnotfound">Word not found?</string>
+    <string name="mute">The voice for VietNamese has not updated yet!</string>
+    <string name="voice">The voice for English is initing. Please wait!</string>
+</resources>
